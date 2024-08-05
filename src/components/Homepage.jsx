@@ -13,6 +13,7 @@ import f4 from '../assets/Featured4.webp'
 import e11 from '../assets/event11.png'
 import e22 from '../assets/event22.png'
 import e33 from '../assets/event33.png'
+import feature from '../src/assets/feature.webp'
 
 const Homepage = () => {
     return (
@@ -137,7 +138,7 @@ const Homepage = () => {
                     <div className="col-12 col-md-6">
                         <div className="row g-4">
                             <div className="col-12 col-md-6 p-3 text-center">
-                                <img id='img3' src="./src/assets/feature.webp" alt="" className="img-fluid" />
+                                <img id='img3' src={feature} alt="" className="img-fluid" />
                             </div>
                             <div className="col-12 col-md-6">
                                 <p className='p-4'>This is the latest design of our collection. This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care. The Natural color is the actual natural color of the fiber, undyed and 100% traceable.</p>
