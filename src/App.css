@@ -1,0 +1,185 @@
+#img1 {
+    width: 260px;
+    height: 200px;
+}
+
+#img2 {
+    height: 500px;
+    width: 50%;
+}
+
+#cartimg {
+    height: 20px;
+    width: 20px;
+}
+
+#cartbagimg {
+    height: 200px;
+    width: 200px;
+}
+
+#img3 {
+    height: 300px;
+    width: 280px;
+    text-align: left;
+}
+
+#imgp {
+    width: 70%;
+}
+
+#head1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 55px;
+    letter-spacing: .03em;
+    color: #212121;
+}
+
+.sale70 {
+    background-color: #e1edff;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-weight: 600;
+}
+
+.header-circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #ffece3;
+}
+
+.header-circle .headerimg {
+    position: absolute;
+    top: -5%;
+}
+
+#hp {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #666;
+    width: 70%
+}
+
+#sh-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 35%;
+}
+
+.header-featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#event1 {
+    background-color: #d6d6d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    letter-spacing: .05em;
+    color: #212121;
+}
+
+#event2 {
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem 2rem;
+}
+
+#ev2btn {
+    background: #474747;
+}
+
+#event3 {
+    background-color: #efe1c7;
+}
+
+#event4 {
+    background-color: #d7d7d9;
+}
+
+#con1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.2rem;
+    padding: 3rem;
+}
+
+#con2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.rem;
+}
+
+#event11 {
+    padding: 2rem 0 2rem 1.3rem;
+    transform: scale(1);
+    transition: transform .5s ease;
+}
+
+#event22 {
+    padding: 2rem 0 2rem 1.3rem;
+    transform: scale(1);
+    transition: transform .5s ease;
+}
+
+#event33 {
+    padding: 2rem 0 2rem 1.3rem;
+    transform: scale(1);
+    transition: transform .5s ease;
+}
+
+#imgg {
+    width: 380px;
+    height: 400px;
+}
+
+#bh {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .1em;
+}
+
+.icon-con {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-img {
+    width: 24px; /* Set the desired size for the icons */
+    height: 24px; /* Ensure consistent size */
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+}
