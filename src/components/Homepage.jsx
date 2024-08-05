@@ -13,7 +13,7 @@ import f4 from '../assets/Featured4.webp'
 import e11 from '../assets/event11.png'
 import e22 from '../assets/event22.png'
 import e33 from '../assets/event33.png'
-import feature from '../src/assets/feature.webp'
+import feature from '../assets/feature.webp'
 
 const Homepage = () => {
     return (
